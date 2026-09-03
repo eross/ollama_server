@@ -1,0 +1,3 @@
+qwen3:14b
+/think /no_think -- reasoning mode
+/set parameter num_ctx 16384   context size
