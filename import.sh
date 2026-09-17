@@ -14,11 +14,10 @@ ollama pull qwen2.5-coder:7b
 ollama pull qwen2.5-coder:14b
 ollama pull deepseek-coder:6.7b
 ollama pull codegemma:7b
-ollama pull code-llama:13b
 ollama pull llama3.1:8b
 ollama pull mistral:7b
 ollama pull gemma2:9b
-ollama pull dolphin-llama3:8b
+ollama pull codestral
 
 
 
