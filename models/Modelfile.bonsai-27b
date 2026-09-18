@@ -1,0 +1,9 @@
+FROM hf.co/prism-ml/Ternary-Bonsai-2-27B-gguf:Q2_0 
+
+PARAMETER num_ctx 262144
+PARAMETER num_predict 16384
+
+PARAMETER temperature 0.7
+PARAMETER top_p 0.8
+PARAMETER top_k 20
+PARAMETER repeat_penalty 1.05

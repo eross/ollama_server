@@ -19,6 +19,8 @@ ollama pull mistral:7b
 ollama pull gemma2:9b
 ollama pull codestral
 ollama pull hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ2_S
+ollama pull hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ2_XXS
+
 
 
 
