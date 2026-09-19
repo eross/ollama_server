@@ -7,6 +7,7 @@ ollama pull qwen3-coder:30b
 ollama pull qwen3:32b
 ollama pull qwen3.5:9b
 ollama pull qwen3.5:27b
+ollama pull qwen3.8:27b
 ollama pull gemma4:26b
 ollama pull gpt-oss:120b
 ollama pull devstral-small-2:24b
@@ -20,6 +21,9 @@ ollama pull gemma2:9b
 ollama pull codestral
 ollama pull hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ2_S
 ollama pull hf.co/unsloth/Qwen3.8-27B-GGUF:UD-IQ2_XXS
+ollama pull hf.co/empero-ai/Qwen3.8-9B-Distill-GGUF:Q4_K_M
+ollama pull hf.co/empero-ai/Qwen3.8-9B-Distill-GGUF:Q5_K_M
+
 
 
 
