@@ -20,7 +20,7 @@ jq --arg baseUrl "${OLLAMA_HOST}/v1" '
         "apiKey": "ollama"
       },
       "models": ([.models[] | {key: (.name), value: {
-        name: (.name | split(":")[0]),
+        name: ((.name | split(":"))[0] + ":") + (.name | split(":"))[1],
         reasoning: false,
         limit: {
           context: 131072,
