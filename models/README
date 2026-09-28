@@ -1,0 +1,4 @@
+An example on how to tune a model at the server.
+
+ollama create -f modelfile newname
+

@@ -1,0 +1,3 @@
+Simple scripts for listing all the models deployed on an Ollama server and
+putting them into the format needed for the associated client.
+
