@@ -1,3 +1,5 @@
+# script for installing all my favorite models.
+
 export OLAMA_HOST="${OLAMA_HOST:-0.0.0.0:1143}"
 # For wsl2 use 172.xx.xx.xx
 # Use the netstat -rn returned gateway address (usually ends in 0.1)
