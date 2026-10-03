@@ -1,0 +1,17 @@
+# Point to your downloaded GGUF file
+FROM hf.co/m4ven/Qwen3-Coder-30B-A3B-Instruct-Q3_K_M-GGUF:Q3_K_M 
+
+# Set the context window to a stable limit for 12GB VRAM (e.g., 16k tokens)
+PARAMETER num_ctx 16384
+
+# Apply the official Qwen3-Coder template parameters
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+{{ .Response }}<|im_end|>"""
+
+PARAMETER stop "<|im_start|>"
+PARAMETER stop "<|im_end|>"
+

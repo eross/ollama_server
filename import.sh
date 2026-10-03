@@ -13,13 +13,13 @@ ollama pull qwen3.5:2b
 ollama pull qwen3:8b
 ollama pull qwen3:14b
 ollama pull qwen3:4b
-ollama pull qwen3:7b
 
 ollama pull hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_M
 ollama cp hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_M gemma-4M:26b
 ollama pull hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_XXS
 ollama cp hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_XXS gemme-4XXS:26b
 
+ollama create -f models/qwen3-coder.model qwen3-coder-30b:q2_k_m
 
 
 
