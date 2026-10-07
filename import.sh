@@ -13,6 +13,7 @@ ollama pull qwen3.5:2b
 ollama pull qwen3:8b
 ollama pull qwen3:14b
 ollama pull qwen3:4b
+ollama pull mistral
 
 ollama pull hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_M
 ollama cp hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_M gemma-4M:26b
