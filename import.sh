@@ -5,7 +5,7 @@ export OLAMA_HOST="${OLAMA_HOST:-0.0.0.0:1143}"
 # Use the netstat -rn returned gateway address (usually ends in 0.1)
 ollama pull devstral-small-2:24b
 ollama pull gemma4:26b
-ollama pull gpt-oss:20b
+#ollama pull gpt-oss:20b
 ollama pull llama3.1:8b
 ollama pull qwen3.5:9b
 ollama pull qwen3.5:4b
@@ -14,6 +14,11 @@ ollama pull qwen3:8b
 ollama pull qwen3:14b
 ollama pull qwen3:4b
 ollama pull mistral
+ollama pull hf.co/IFM/K2-Horizon-7B-GGUF:Q5_K_M
+ollama pull hf.co/ccore/Qwen3.5-4B-3D-Coder:Q4_K_M
+ollama pull hf.co/abenzerps/NeoHorse-1-9B-Uncensored-GSQ-RCO-GGUF:IQ3_M
+
+
 
 ollama pull hf.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF:Q4_K_M
 ollama cp hf.co/nvidia/NVIDIA-Nemotron-3-Nano-4B-GGUF:Q4_K_M nemotron
