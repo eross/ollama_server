@@ -17,6 +17,8 @@ ollama pull mistral
 ollama pull hf.co/IFM/K2-Horizon-7B-GGUF:Q5_K_M
 ollama pull hf.co/ccore/Qwen3.5-4B-3D-Coder:Q4_K_M
 ollama pull hf.co/abenzerps/NeoHorse-1-9B-Uncensored-GSQ-RCO-GGUF:IQ3_M
+ollama pull hf.co/empero-ai/Qwen3.8-4B-Distill-GGUF:Q4_K_M
+ollama pull hf.co/empero-ai/Qwen3.8-4B-Distill-GGUF:Q8_0
 
 
 
@@ -27,6 +29,8 @@ ollama cp hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_M gemma-4M:26b
 ollama pull hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_XXS
 ollama cp hf.co/unsloth/gemma-4-26B-A4B-it-GGUF:UD-IQ2_XXS gemma-4XXS:26b
 
+# Base GGUF required by models/qwen3-coder.model
+ollama pull hf.co/m4ven/Qwen3-Coder-30B-A3B-Instruct-Q3_K_M-GGUF:Q3_K_M
 ollama create -f models/qwen3-coder.model qwen3-coder-30b:q2_k_m
 
 
